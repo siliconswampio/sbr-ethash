@@ -1,4 +1,4 @@
-import { BN, keccak, keccak256, rlphash, zeros, TWO_POW256 } from 'ethereumjs-util'
+import { BN, keccak, keccak256, rlphash, zeros, TWO_POW256 } from 'sbr-util'
 import {
   params,
   fnv,
@@ -10,7 +10,7 @@ import {
   getSeed,
 } from './util'
 import type { LevelUp } from 'levelup'
-import type { Block, BlockHeader } from '@ethereumjs/block'
+import type { Block, BlockHeader } from '@sbr/block'
 const xor = require('buffer-xor')
 
 export default class Ethash {

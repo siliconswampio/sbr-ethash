@@ -1,4 +1,4 @@
-import { BN, keccak256 } from 'ethereumjs-util'
+import { BN, keccak256 } from 'sbr-util'
 const MR = require('miller-rabin')
 
 export const params = {

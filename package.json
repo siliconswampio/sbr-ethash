@@ -25,13 +25,13 @@
     "test": "tape -r ts-node/register test/*.spec.ts"
   },
   "dependencies": {
+    "@sbr/block": "git+https://github.com/siliconswampio/sbr-block.git",
     "@types/levelup": "^4.3.0",
     "buffer-xor": "^2.0.1",
-    "ethereumjs-util": "^7.0.10",
-    "miller-rabin": "^4.0.0"
+    "miller-rabin": "^4.0.0",
+    "sbr-util": "git+https://github.com/siliconswampio/sbr-util.git"
   },
   "devDependencies": {
-    "@ethereumjs/block": "^3.2.1",
     "@ethereumjs/config-coverage": "^2.0.0",
     "@ethereumjs/config-typescript": "^2.0.0",
     "@ethereumjs/eslint-config-defaults": "^2.0.0",

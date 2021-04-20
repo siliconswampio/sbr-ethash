@@ -51,7 +51,7 @@ Packages now target `ES2017` for Node.js builds (the `main` entrypoint from `pac
 
 ### Other Changes
 
-- Updated Block dependency to `@ethereumjs/block` `v3.0.0`, PR [#883](https://github.com/ethereumjs/ethereumjs-monorepo/pull/883)
+- Updated Block dependency to `@sbr/block` `v3.0.0`, PR [#883](https://github.com/ethereumjs/ethereumjs-monorepo/pull/883)
 - Removed `async` dependency, PR [#779](https://github.com/ethereumjs/ethereumjs-monorepo/pull/779)
 
 ## 1.0.0-rc.1 - 2020-11-19
@@ -114,7 +114,7 @@ in performance benefits for Node.js consumers, see [here](https://github.com/eth
 
 ### Other Changes
 
-- Updated Block dependency to `@ethereumjs/block` `v3.0.0`,
+- Updated Block dependency to `@sbr/block` `v3.0.0`,
   PR [#883](https://github.com/ethereumjs/ethereumjs-monorepo/pull/883)
 - Removed `async` dependency,
   PR [#779](https://github.com/ethereumjs/ethereumjs-monorepo/pull/779)
@@ -129,7 +129,7 @@ Changes from PR [#23](https://github.com/ethereumjs/ethashjs/pull/23):
 - Node versions tested updated from [4, 5] to [10, 12, 13, 14]
 - Upgraded dev deps (ethereumjs-block, nyc, standard)
 - Added `ethash_tests.json` to test dir and removes ethereumjs-testing dep
-- Use single imports for ethereumjs-util, upgrades to v7.0.2
+- Use single imports for sbr-util, upgrades to v7.0.2
 - Modernizes buffer init syntax
 
 Further/preceeding dependency updates in
