@@ -1,25 +1,17 @@
-# @ethereumjs/ethash
-
-[![NPM Package][ethash-npm-badge]][ethash-npm-link]
-[![GitHub Issues][ethash-issues-badge]][ethash-issues-link]
-[![Actions Status][ethash-actions-badge]][ethash-actions-link]
-[![Code Coverage][ethash-coverage-badge]][ethash-coverage-link]
-[![Discord][discord-badge]][discord-link]
+# @sbr/ethash
 
 | [Ethash](https://github.com/ethereum/wiki/wiki/Ethash) implementation in TypeScript. |
 | --- |
 
-Note: this `README` reflects the state of the library from `v1.0.0` onwards. See `README` from the [standalone repository](https://github.com/ethereumjs/ethashjs) for an introduction on the last preceeding release.
-
 # INSTALL
 
-`npm install @ethereumjs/ethash`
+`npm install https://github.com/siliconswampio/sbr-ethash.git`
 
 # USAGE
 
 ```typescript
-import Ethash from '@ethereumjs/ethash'
-import { Block } from '@ethereumjs/block'
+import Ethash from '@sbr/ethash'
+import { Block } from '@sbr/block'
 const level = require('level-mem')
 
 const cacheDB = level()
@@ -61,7 +53,7 @@ Returns a promise that resolves to a boolean.
 
 **Parameters**
 
-- `block` - the [@ethereumjs/block](https://github.com/ethereumjs/ethereumjs-monorepo/tree/master/packages/block) to verify
+- `block` - the [@sbr/block](https://github.com/siliconswampio/sbr-block) to verify
 
 ### `ethash.mkcache(cacheSize, seed)`
 
