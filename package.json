@@ -5,7 +5,7 @@
   "license": "MPL-2.0",
   "author": "",
   "keywords": [
-    "ethash",    
+    "ethash",
     "POW"
   ],
   "files": [
@@ -17,7 +17,6 @@
   "browser": "dist.browser/index.js",
   "scripts": {
     "build": "ethereumjs-config-ts-build",
-    "tsc": "ethereumjs-config-tsc",
     "prepublishOnly": "npm run clean && npm run build && npm run test",
     "clean": "rm -Rf ./dist && rm -Rf ./dist.browser",
     "lint": "ethereumjs-config-lint",
@@ -51,10 +50,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ethereumjs/ethereumjs-monorepo.git"
+    "url": "https://github.com/siliconswampio/sbr-ethash.git"
   },
-  "homepage": "https://github.com/ethereumjs/ethereumjs-monorepo/tree/master/packages/ethash#readme",
+  "homepage": "https://github.com/siliconswampio/sbr-ethash#readme",
   "bugs": {
-    "url": "https://github.com/ethereumjs/ethereumjs-monorepo/issues?q=is%3Aissue+label%3A%22package%3A+ethash%22"
+    "url": "https://github.com/siliconswampio/sbr-ethash/issues"
   }
 }
